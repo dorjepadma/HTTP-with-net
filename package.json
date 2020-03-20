@@ -1,21 +1,24 @@
 {
-  "name": "starter-code",
+  "name": "code",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "jest --verbose",
-    "test:watch": "npm run test -- --watchAll --coverage",
-    "start:watch": "nodemon"
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "eslint": "^6.8.0",
     "jest": "^25.1.0",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
-  }
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
